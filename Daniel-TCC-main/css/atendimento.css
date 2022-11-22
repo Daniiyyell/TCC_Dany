@@ -1,0 +1,109 @@
+.caixaGrande {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  background: #000;
+  font-family: sans-serif;
+}
+
+.caixa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.caixa h1 {
+  padding-bottom: 20px;
+  font-size: 40px;
+}
+
+.box-wrapper {
+  display: flex;
+
+  gap: 20px;
+}
+
+.box-wrapper .cards {
+  padding: 20px 40px;
+  background: #391287;
+  border-radius: 4px;
+}
+
+.box-wrapper .cards form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box-wrapper .cards form input[type="text"] {
+  background: #6494ed34;
+  outline: none;
+  padding: 7px 10px;
+  border-radius: 4px;
+  border: 1px solid #6495ed;
+}
+
+.box-wrapper .cards form input[type="submit"] {
+  background: #6495ed;
+  color: #fff;
+  padding: 7px 10px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.8s cubic-bezier(0.79, 0.33, 0.14, 0.53);
+}
+
+.box-wrapper .cards form input[type="submit"]:hover {
+  border-radius: 10px;
+  transform: scale(1.01);
+  border: 1px solid #6495ed;
+}
+
+.box-wrapper .cards textarea {
+  background: #6494ed34;
+  outline: none;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #6495ed;
+}
+
+.box-wrapper .cards .contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-wrapper .cards .contact .item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.box-wrapper .cards .contact .item i {
+  font-size: 20px;
+  color: #191919;
+}
+
+.box-wrapper .cards .social-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.box-wrapper .cards .social-links i {
+  color: #191919;
+}
+
+.box-wrapper .cards .social-links .images {
+  gap: 10px;
+  font-size: 50px;
+}
+
+.box-wrapper .cards .social-links a {
+  text-decoration: none;
+}
